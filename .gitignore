@@ -1,0 +1,28 @@
+env/
+output/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+
+
+# Local environments and build artifacts
+env_*/
+build/
+dist/
+
+# Local input data and UI captures
+file_xlsx/
+orca-ui-check.png
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
